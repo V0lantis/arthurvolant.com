@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://arthurvolant.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Personal blog by Arthur Volant',
+  subtitle: 'Data enthusiast',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -13,31 +13,28 @@ module.exports = {
   menu: [
     {
       label: 'Articles',
-      path: '/'
+      path: '/',
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/pages/about',
     },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Arthur Volant',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio:
+      'Data engineer & data scientist. Currently a Staff Data Engineer in the French Army forces.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'arthurvolant@gmail.com',
+      facebook: '',
+      telegram: '',
+      twitter: '',
+      github: 'V0lantis',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'arthur-volant',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
@@ -45,6 +42,6 @@ module.exports = {
       youtube: '',
       soundcloud: '',
       medium: '',
-    }
-  }
+    },
+  },
 };
