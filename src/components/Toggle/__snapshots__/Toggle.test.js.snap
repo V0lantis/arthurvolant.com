@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page renders correctly 1`] = `
+<div
+  className="react-toggle"
+  onClick={[Function]}
+  onTouchCancel={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+>
+  <div
+    className="react-toggle_track"
+  >
+    <div
+      className="react-toggle_track-check"
+    />
+    <div
+      className="react-toggle_track-x"
+    />
+  </div>
+  <div
+    className="react-toggle_thumb"
+  />
+  <input
+    aria-label="Switch between Dark and Light mode"
+    className="react-toggle_screenreader-only"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    title="test"
+    type="checkbox"
+  >
+    test
+  </input>
+</div>
+`;

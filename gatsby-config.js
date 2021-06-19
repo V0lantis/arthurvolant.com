@@ -16,14 +16,14 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-katex`,
+            resolve: 'gatsby-remark-katex',
             options: {
               // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-              strict: `ignore`,
+              strict: 'ignore',
             },
           },
         ],
@@ -73,15 +73,16 @@ module.exports = {
         `,
         feeds: [
           {
-            serialize: ({ query: { site, allMarkdownRemark } }) =>
-              allMarkdownRemark.edges.map((edge) => ({
-                ...edge.node.frontmatter,
-                description: edge.node.frontmatter.description,
-                date: edge.node.frontmatter.date,
-                url: site.siteMetadata.site_url + edge.node.fields.slug,
-                guid: site.siteMetadata.site_url + edge.node.fields.slug,
-                custom_elements: [{ 'content:encoded': edge.node.html }],
-              })),
+            serialize: (
+              { query: { site, allMarkdownRemark } }
+            ) => allMarkdownRemark.edges.map((edge) => ({
+              ...edge.node.frontmatter,
+              description: edge.node.frontmatter.description,
+              date: edge.node.frontmatter.date,
+              url: site.siteMetadata.site_url + edge.node.fields.slug,
+              guid: site.siteMetadata.site_url + edge.node.fields.slug,
+              custom_elements: [{ 'content:encoded': edge.node.html }],
+            })),
             query: `
               {
                 allMarkdownRemark(
@@ -185,12 +186,11 @@ module.exports = {
           }
         `,
         output: '/sitemap.xml',
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.edges.map((edge) => ({
-            url: site.siteMetadata.siteUrl + edge.node.path,
-            changefreq: 'daily',
-            priority: 0.7,
-          })),
+        serialize: ({ site, allSitePage }) => allSitePage.edges.map((edge) => ({
+          url: site.siteMetadata.siteUrl + edge.node.path,
+          changefreq: 'daily',
+          priority: 0.7,
+        })),
       },
     },
     {

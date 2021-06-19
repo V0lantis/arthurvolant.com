@@ -10,7 +10,7 @@
     text-align: left;
 
     &-link {
-      color: $color-secondary;
+      color: var(--color-secondary);
       font-size: 26px;
       font-weight: bold;
 
@@ -33,7 +33,8 @@
     text-align: right;
 
     &-link {
-      color: $color-secondary;
+      color: var(--color-secondary);
+      transition: color var(--transition-delay) ease-out;
       font-size: 26px;
       font-weight: bold;
 

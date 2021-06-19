@@ -15,7 +15,8 @@
 
       &-link {
         font-size: $typographic-base-font-size;
-        color: $typographic-base-font-color;
+        color: var(--color-base);
+        transition: color var(--transition-delay) ease-out;
         font-weight: normal;
         border: 0;
 
@@ -26,8 +27,8 @@
         }
 
         &--active {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          color: var(--color-base);
+          border-bottom: 1px solid var(--color-base);
         }
 
       }

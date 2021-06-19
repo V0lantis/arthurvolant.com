@@ -9,14 +9,11 @@ type Props = {
   children: ReactNode,
   title: string,
   description?: string,
-  socialImage?: string
+  socialImage?: string,
 };
 
 const Layout = ({
-  children,
-  title,
-  description,
-  socialImage = ''
+  children, title, description, socialImage = ''
 }: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage || author.photo;
@@ -34,6 +31,13 @@ const Layout = ({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+        {/* Include katex cdn */}
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css"
+          integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
+          crossorigin="anonymous"
+        />
       </Helmet>
       {children}
     </div>
