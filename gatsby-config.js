@@ -255,6 +255,13 @@ module.exports = {
         tracesSampleRate: 1,
       },
     },
+    {
+      resolve: 'gatsby-plugin-s3',
+      options: {
+        bucketName: 'arthurvolant.com',
+        acl: null
+      },
+    },
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs',
   ],
