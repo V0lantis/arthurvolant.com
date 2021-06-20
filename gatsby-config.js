@@ -259,7 +259,8 @@ module.exports = {
       resolve: 'gatsby-plugin-s3',
       options: {
         bucketName: 'arthurvolant.com',
-        acl: null
+        protocol: 'https',
+        hostname: 'www.arthurvolant.com'
       },
     },
     'gatsby-plugin-flow',
