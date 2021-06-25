@@ -4,12 +4,12 @@ template: "page"
 socialImage: "/media/paris.png"
 ---
 
-I'm Arthur, a data enthousiast. I am the guy who likes to *[Get Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done)* quickly and efficiently. So, I guess that's enough for an introduction - let's get to work !
+I'm Arthur, a data enthusiast. I am the guy who likes to *[Get Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done)* quickly and efficiently. So, I guess that's enough for an introduction - let's get to work !
 
 ## What do I like to do ?
 
 * Tackle challenging problems related to data analysis and data engineering.
-* Build scallable applications.
+* Build scalable applications.
 * Learning new skills and gaining knowledge related to Machine Learning and Data Engineering.
 * Studying data and finding the right model to fit the real world and predict future in the most accurate way
 
@@ -19,13 +19,13 @@ I'm Arthur, a data enthousiast. I am the guy who likes to *[Get Things Done](htt
 
 ## What's my background ?
 
-I studied Computer Science at the [University of Technology of Compiègne](https://www.utc.fr/), a French's Engineering school. I have always been mesmerized by the beauty of math and how one can 
+I studied Computer Science at the [University of Technology of Compiègne](https://www.utc.fr/), a French Engineering school. I have always been mesmerized by the beauty of math and how one can 
 formulate an entire theory from very simple axioms. During my last year of studies, I specialized in Data Science because I was really attracted with the new challenges offered by the Big Data.
 
 ## Open Source, Scientific computing and Data Science experiences.
 
 I started contributing to Open Source and to [*SciPy*](https://www.scipy.org/) in particular 
-in February of 2021. Originaly, it was a school's project meant to set foot to the contributing comunity. Since I enjoyed it very much, I continue to do so in my free time. I also contributed to [*ViteMaDose*](https://github.com/CovidTrackerFr/vitemadose) project, which helps people to schedule a vaccination date in France. You can find the website [here](https://vitemadose.covidtracker.fr/).
+in February of 2021. Originally, it was a school's project meant to set foot to the contributing community. Since I enjoyed it very much, I continue to do so in my free time. I also contributed to [*ViteMaDose*](https://github.com/CovidTrackerFr/vitemadose) project, which helps people to schedule a vaccination date in France. You can find the website [here](https://vitemadose.covidtracker.fr/).
 
 
 My last main pull-requests : 
