@@ -14,9 +14,9 @@ description: "My first contribution to Open Source"
 socialImage: "/media/directions-1515420.jpg"
 ---
 
-Since I started developing tools and softwares, I always wanted to try contributing to the Open Source community. But Open Source always had had a frightening effect on me. From afar, reading plain source code from big library such as *ReactJs* or the *Python's source code* seemed over complicated. How those OS developers could produce and understand such dense source files of codes ? How were they able to fix bugs ? How could it be even maintainable ?
+Since I started developing tools and softwares, I always wanted to try contributing to the Open Source community. Open Source always had had a frightening effect on me though. From afar, reading plain source code from big library such as *ReactJs* or the *Python's source code* seemed over complicated. How those OS developers could produce and understand such dense source files of codes ? How were they able to fix bugs ? How could it be even maintainable ?
 
-While working on some personal projects and learning more advanced python tricks, I came up watching [*Being a Core Developer in Python*](https://youtu.be/voXVTjwnn-U?t=968) of __Raymond Hettinger__.
+While working on some personal projects and learning more advanced python tricks, I came across [*Being a Core Developer in Python*](https://youtu.be/voXVTjwnn-U?t=968) of __Raymond Hettinger__.
 The video is a python conference given in 2016. I invite you to watch it, as all __Raymond Hettinger__'s videos are really good and instructive while also being funny. In the video, __Raymond Hettinger__ says :
 
 > It is my believe that he [__Guido Van Rossum__, creator of Python] knows less than 1% of what is going on in the Python world.
@@ -42,4 +42,6 @@ I decided it was the right time and the right version to proposed to SciPy, and 
 
 I must say, I have been very nicely surprised how the comments were nice and helpful. I have heard
 bad stories on toxic behaviors on other repositories and I was glad to read really nice feedbacks from
-the SciPy community. I never learnt as much as I did than during pull-requests reviews. 
+the SciPy community. I never learnt as much as I did than during pull-requests reviews.
+
+This is my first blog post which is aimed to new open source contributors, who might be doubting their capabilities of contributing to open source projects. I encourage you to join the trend. It is great fun and a rewarding experience ! 
