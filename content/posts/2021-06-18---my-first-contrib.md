@@ -10,7 +10,7 @@ tags:
   - "First post"
   - "Web Development"
   - "Open Source"
-description: "My first contribution to Open Source"
+description: "Since I started developing tools and softwares, I always wanted to try contributing to the Open Source community. Open Source always had had a frightening effect on me though."
 socialImage: "/media/directions-1515420.jpg"
 ---
 
